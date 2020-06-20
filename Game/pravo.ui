@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Pochti</class>
+ <widget class="QWidget" name="Pochti">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>768</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>460</y>
+     <width>350</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Направо</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>570</y>
+     <width>350</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Вперед</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_3">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>680</y>
+     <width>350</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Налево</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>100</y>
+     <width>631</width>
+     <height>351</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;style&gt; p {text-indent: 50px} &lt;/style&gt;&lt;body&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;Вы решили повернуть направо. Потеряв чувтво&lt;br/&gt;времени вы уже не осознаете сколько бродите по этому&lt;br/&gt;лабиринту. Останившись перекусить вы вспоминаете&lt;br/&gt;своих товарищей, сколько времени провели с ними и чего&lt;br/&gt;только не навидались.&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;Закончив свою трапезу вы отпровляетесь снова в ваш&lt;br/&gt;тяжелый путь. Чувствую, что дышать вам становится&lt;br/&gt;легче, вы понимаете, что уже близки к выходу. Пройдя&lt;br/&gt;чуть дальше вы снова натыкаетесь на развилку, но&lt;br/&gt;чувство того, что вы уже близки к выходу из этого&lt;br/&gt;лабиринта, придают вам уверенность последующих&lt;br/&gt;действиях.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_pict">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>768</width>
+     <height>800</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>../PICT/pict2.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label5">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>20</y>
+     <width>251</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 14pt &quot;Times New Roman&quot;;</string>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <zorder>label_pict</zorder>
+  <zorder>pushButton</zorder>
+  <zorder>pushButton_2</zorder>
+  <zorder>pushButton_3</zorder>
+  <zorder>label_2</zorder>
+  <zorder>label5</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Start</class>
+ <widget class="QWidget" name="Start">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>768</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Game</string>
+  </property>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>530</y>
+     <width>350</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Направо</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>660</y>
+     <width>350</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Налево</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>50</y>
+     <width>641</width>
+     <height>451</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;style&gt; p {text-indent: 50px} &lt;/style&gt;&lt;body&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;Вы лидер команды исследователей, которые&lt;br/&gt;отправились на изучение новой пирамиды, которая долгое&lt;br/&gt;время находилась под песком. Собравшись с духом вы&lt;br/&gt;решили зайти первым в эту пирамиду, и как только вы&lt;br/&gt;вступили за ее порог случился обвал и вход был завален&lt;br/&gt;камнями. Таким образом ваши товарищи остались&lt;br/&gt;снаружи и у вас только один путь.&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;Пройдя вглубь пирамиды вы осознаете, что&lt;br/&gt;попадаете в лабиринт. Пройдя несколько метров вы&lt;br/&gt;видите развилку с двумя поворотами, один на лево,&lt;br/&gt;другой на право. Вам нужно выбрать путь, по которому вы&lt;br/&gt;дальше пойдете.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_pict">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>768</width>
+     <height>800</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>../PICT/pict2.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label5">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>20</y>
+     <width>251</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 14pt &quot;Times New Roman&quot;;</string>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <zorder>label_pict</zorder>
+  <zorder>pushButton</zorder>
+  <zorder>pushButton_2</zorder>
+  <zorder>label_2</zorder>
+  <zorder>label5</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
